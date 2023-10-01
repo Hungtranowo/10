@@ -7,8 +7,8 @@ int main(){
     cin.tie(0);
     cout.tie(0);
 
-    freopen("UCLN.INP", "r", stdin);
-    freopen("UNCL.OUT", "w", stdout);
+    freopen("BAI12ucln.INP", "r", stdin);
+    freopen("BAI12ucln.OUT", "w", stdout);
 
     
     return 0;

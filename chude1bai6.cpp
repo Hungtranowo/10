@@ -37,12 +37,9 @@ int main()
     {
         cin >> arr[i];
     }
-    int max = 0;
-    for (int i = 0; i < ele; i++)
-    {
-        if (max < arr[i])
-            max = arr[i];
-    }
+
+    sort(arr, ele);
+    int max = arr[0];
 
     int count = 0;
     for (int i = 0; i < ele; i++)
@@ -52,8 +49,6 @@ int main()
 
     if (count < 2)
     {
-        sort(arr, ele);
-
         cout << "second max = " << arr[1];
     }
     else

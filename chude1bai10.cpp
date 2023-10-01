@@ -41,8 +41,8 @@ int main()
     cin.tie(0);
     cout.tie(0);
 
-    freopen("MANGCLBAI10.INP", "r", stdin);
-    freopen("MANGCLBai10.OUT", "w", stdout);
+    freopen("BAI10chanle.INP", "r", stdin);
+    freopen("Bai10chanle.OUT", "w", stdout);
 
     int n;
     cin >> n;
