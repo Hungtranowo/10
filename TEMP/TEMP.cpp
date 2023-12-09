@@ -14,9 +14,9 @@ int main(){
         for (int j=i+1; j<n; j++){
             int count = 0;
 
-            if (){
+            // if (){
                 
-            }
+            // }
         }
     }
     return 0;
