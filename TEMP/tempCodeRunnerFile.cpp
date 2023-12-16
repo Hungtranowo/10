@@ -1,18 +1,14 @@
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
+
 int main(){
-    unsigned int n; cin >> n;
-
-    unsigned int sum = 0;
-
-    for (unsigned int i=9; i<n; i+=9){
-        if (i%9==0){
-            sum += i;
-        }
-    } 
-
-    cout << sum;
+    int arr[10] = {};
+    fill(arr, (arr+10), 2);
+    for (int i=0; i<10; i++){
+        cout << arr[i] << endl;
+    }
     return 0;
 }

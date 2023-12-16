@@ -1,23 +1,13 @@
-#include <iostream>
+#include<iostream>
 
 using namespace std;
 
-int main(){
-    int n; cin >> n;
-    int *arr = new int[n];
-
-    for (int i=0; i<n; i++){
-        cin >> arr[i];
-    }
-
-    for (int i=0; i<n; i++){
-        for (int j=i+1; j<n; j++){
-            int count = 0;
-
-            // if (){
-                
-            // }
-        }
-    }
-    return 0;
-}
+int main() {
+	char arr[4][4];
+	for (int i = 0; i < 4; i++) {
+		for (int j = 0; j < 4; j++) {
+			cout << i << j << (int)static_cast<void*>(&arr[i][j]) << endl;
+		}
+	}
+	return 0;
+}	
